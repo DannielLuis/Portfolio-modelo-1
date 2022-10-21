@@ -1,0 +1,212 @@
+/**/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mynav{
+    background-color: #343a40 !important;
+}
+
+.nav-item > a, .mynav a{
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.corpo{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 0% 5px 0px;
+    text-align: center;
+    background-image: url(../imagens/laptop_programming.jpg);
+    background-position: center center;
+    background-size: 2500px;
+}
+
+.corpo .contt{
+    width: 60%;
+    margin: 0 auto;
+    min-width: 300px;
+}
+
+.div-foto{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid gray;
+    transform: rotate(-9deg);
+}
+
+.div-foto > img{
+    width: 350px;
+    transform: translateX(-55px);
+}
+
+.contt > h1{
+    box-sizing: border-box;
+    color:white;
+    margin-top: 7px;
+    text-transform: uppercase;
+}
+
+.img-pai{
+    width: 100%;
+    text-align: center;
+}
+
+.img-backg{
+    background-image: url(../imagens/pro.png);
+    background-size: 300px;
+}
+
+.img-2-backg{
+    background-image: url(../imagens/web.png);
+    background-size: 350px;
+}
+
+.img-3-backg{
+    background-image: url(../imagens/sis.png);
+    background-size: 220px;/*cover*/
+}
+
+.img-backg-2{
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    height: 40px;
+    background-position: center center;
+}
+
+.botao{
+    margin-top: 20px !important;
+}
+
+.div-proje{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.div-pro{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 40%;
+    max-width: 550px;
+    min-width: 350px;
+    text-align: left;
+    border: 3px solid grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    padding-bottom: 10px;
+    /*background-color: bisque;*/
+}
+
+.div-pro > img{
+    width: 100%;
+    /*height: 200px;*/
+    border-bottom: 2px solid black;
+}
+
+.ggg > .hhh{
+    margin-left: 10px;
+}
+
+.ggg .btm-link-cod{
+    text-decoration: none;
+}
+footer{
+    background-color: #666c74d0;
+    text-align: center;
+}
+.footer-cima{
+    padding: 40px 0;
+}
+
+.div-contatos{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    width: 350px;
+    height: 100px;
+}
+.div-contatos > h2{
+    color: white;
+}
+.div-contatos .label-1{
+    color: white;
+    font-size: 20px;
+}
+
+.icons-soc1{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    width: 350px;
+}
+
+.icons-soc1 > h2{
+    margin-bottom: 20px;
+    color: white;
+}
+.icons-soc1 a{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    font-size: 28px;
+    margin: 0px 6px;
+}
+/*
+.icons-soc1 a:hover{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    font-size: 38px;
+    margin: 6px;
+    background-color: rgb(23, 58, 23);
+}*/
+
+.instagram-1{
+    vertical-align: top;
+    /*overflow: hidden;*/
+    background-color: #343a40;
+    background-image: url(../imagens/Instagram-logo.png);
+    background-size: 47px;
+    background-position: center center;
+}
+.whatsapp-1{
+    background-color: rgb(30, 196, 30);
+}
+.linkedin-1{
+    background-color: blue;
+}
+.github-1{
+    background-color: black;
+}
+.icons-soc1 > a > i{
+    margin: auto;
+}
+.footer-final{
+    text-align: center;
+    background-color: #343a40;
+}
+.footer-final > p{
+    width: 300px;
+    margin: 0 auto;
+    padding: 18px 0;
+    color: white;
+    font-size: 18px;
+}
+
