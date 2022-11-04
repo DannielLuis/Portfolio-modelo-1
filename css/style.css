@@ -69,7 +69,7 @@
     margin-top: 20px !important;
 }
 
-.div-proje{
+#section-projetos{
     width: 100%;
     text-align: center;
     padding-bottom: 20px;
@@ -84,12 +84,10 @@
     min-width: 350px;
     text-align: left;
     border: 3px solid grey;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px 10px 0 0;
     overflow: hidden;
     margin: 20px;
     padding-bottom: 10px;
-    /*background-color: bisque;*/
 }
 
 .div-pro > img{
