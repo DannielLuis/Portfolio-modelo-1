@@ -9,7 +9,7 @@
 
 #navbar {
     display: flex;
-    padding: 1rem;
+    padding: 0.8rem;
     align-items: center;
     justify-content: space-between;
     background-color: #343a40;
@@ -17,7 +17,7 @@
 
 #navbar a {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: none;
 }
 
@@ -31,37 +31,13 @@
     display: flex;
     list-style: none;
     gap: 0.5rem;
-    margin-right: 20px;
-    background-color: blue;
+    margin-right: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.mynav{
-    background-color: #343a40 !important;
+.nav-link {
+    display: block;
+    padding: 0.5rem;
+    margin: 0 8px;
 }
-
-.nav-item > a, .mynav a{
-    color: white;
-    font-size: 30px;
-    margin-right: 20px;
-}*/
 
 .corpo{
     box-sizing: border-box;
@@ -70,7 +46,7 @@
     text-align: center;
     background-image: url(../imagens/laptop_programming.jpg);
     background-position: center center;
-    background-size: 2500px;
+    background-size: cover;/*2500px*/
 }
 
 .corpo .contt{
