@@ -3,19 +3,26 @@
     margin: 0;
     padding: 0;
 }
+#header {
+    box-sizing: border-box;
+}
+
 #navbar {
-    width: 100%;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
     background-color: #343a40;
 }
 
 #navbar a {
     color: white;
+    font-size: 30px;
     text-decoration: none;
 }
 
 #logo {
     margin-left: 20px;
-    font-size: 40px;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -23,6 +30,8 @@
 #menu {
     display: flex;
     list-style: none;
+    gap: 0.5rem;
+    margin-right: 20px;
     background-color: blue;
 }
 
