@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-#header {
+header {
     box-sizing: border-box;
 }
 
@@ -39,7 +39,7 @@
     margin: 0 8px;
 }
 
-.corpo{
+#header {
     box-sizing: border-box;
     width: 100%;
     padding: 10px 0% 5px 0px;
@@ -48,8 +48,18 @@
     background-position: center center;
     background-size: cover;/*2500px*/
 }
+/*
+.corpo{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 0% 5px 0px;
+    text-align: center;
+    background-image: url(../imagens/laptop_programming.jpg);
+    background-position: center center;
+    background-size: cover;
+}*/
 
-.corpo .contt{
+.contt{
     width: 60%;
     margin: 0 auto;
     min-width: 300px;
@@ -90,8 +100,20 @@
     text-shadow: 2px 2px 0 black;
 }
 
-.botao{
-    margin-top: 20px !important;
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    border: 2px solid rgb(75, 73, 73);
+    background-color: gray;
+}
+.btn-dark{
+    margin-top: 20px;
+    background-color: gray;
 }
 
 #section-projetos{
