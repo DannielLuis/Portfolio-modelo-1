@@ -3,7 +3,47 @@
     margin: 0;
     padding: 0;
 }
+#navbar {
+    width: 100%;
+    background-color: #343a40;
+}
 
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#logo {
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .mynav{
     background-color: #343a40 !important;
 }
@@ -12,7 +52,7 @@
     color: white;
     font-size: 30px;
     margin-right: 20px;
-}
+}*/
 
 .corpo{
     box-sizing: border-box;
